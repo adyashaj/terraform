@@ -1,0 +1,6 @@
+export http_proxy=http://proxy.tcs.com:8080
+export https_proxy=https://proxy.tcs.com:8080
+export ftp_proxy=ftp://proxy.tcs.com:8080
+export socks_proxy=https://proxy.tcs.com:8080
+export all_proxy=https://proxy.tcs.com:8080
+export no_proxy=localhost,127.0.0.1,::1,10.138.77.162

@@ -1,0 +1,11 @@
+testplaybook.yml
+---
+- hosts: webserver
+
+  tasks:
+  - name: creates directory
+    file:
+        path: /etc/test_saket
+        state: directory
+        mode: 0755
+
